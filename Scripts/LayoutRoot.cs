@@ -43,7 +43,7 @@ namespace Poke.UI
         }
 
         public void Update() {
-            if(Time.time - _lastTickTimestamp >= _tickInterval) {
+            if(Time.unscaledTime - _lastTickTimestamp >= _tickInterval) {
                 _tick = true;
             }
         }
@@ -71,7 +71,7 @@ namespace Poke.UI
                     l.ComputeLayout();
                 }
 
-                _lastTickTimestamp = Time.time;
+                _lastTickTimestamp = Time.unscaledTime;
                 _tick = false;
             }
         }
