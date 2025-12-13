@@ -26,11 +26,6 @@ namespace Poke.UI
         
         [Header("Sizing")]
         [SerializeField] protected SizeModes m_sizing;
-        
-        [Header("Transform")]
-        [SerializeField] protected Vector2 m_offset;
-        [SerializeField] protected float m_rotation;
-        [SerializeField] protected Vector2 m_scale;
 
         public bool IgnoreLayout {
             get => m_ignoreLayout;
@@ -41,10 +36,7 @@ namespace Poke.UI
                 }
             }
         }
-        public Vector2 Offset => m_offset;
         public RectTransform Rect => _rect;
-        public float Rotation => m_rotation;
-        public Vector2 Scale => m_scale;
         public SizeModes SizeMode => m_sizing;
 
         protected RectTransform _rect;

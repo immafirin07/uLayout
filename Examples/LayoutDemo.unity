@@ -248,9 +248,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &117821695
 MonoBehaviour:
@@ -408,9 +405,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -476,9 +470,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
@@ -655,9 +646,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -896,9 +884,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!1 &228051139
 GameObject:
@@ -955,9 +940,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 8
@@ -1097,9 +1079,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 64
     bottom: 64
@@ -1201,9 +1180,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &293280499
 MonoBehaviour:
@@ -1359,9 +1335,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &313861189
 MonoBehaviour:
@@ -1592,9 +1565,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -1733,9 +1703,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &360253928
 MonoBehaviour:
@@ -1891,9 +1858,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -1957,9 +1921,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &497310063
 MonoBehaviour:
@@ -2115,9 +2076,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &646719662
 MonoBehaviour:
@@ -2465,9 +2423,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
@@ -2650,9 +2605,6 @@ MonoBehaviour:
   m_sizing:
     x: 1
     y: 2
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -3016,9 +2968,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -3165,9 +3114,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &994240095
 MonoBehaviour:
@@ -3474,9 +3420,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 64
     bottom: 64
@@ -3578,9 +3521,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1149273952
 MonoBehaviour:
@@ -3812,9 +3752,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
@@ -3916,9 +3853,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -4058,9 +3992,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
@@ -4164,9 +4095,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
@@ -4271,9 +4199,6 @@ MonoBehaviour:
   m_sizing:
     x: 1
     y: 1
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 64
     bottom: 64
@@ -4392,9 +4317,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 12
     bottom: 12
@@ -4571,9 +4493,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -4637,9 +4556,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1458607637
 MonoBehaviour:
@@ -4795,9 +4711,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1491542983
 MonoBehaviour:
@@ -5130,9 +5043,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!1 &1588500895
 GameObject:
@@ -5194,9 +5104,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 2
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -5388,9 +5295,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 64
     bottom: 64
@@ -5492,9 +5396,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1687583710
 MonoBehaviour:
@@ -5650,9 +5551,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1724996049
 MonoBehaviour:
@@ -5808,9 +5706,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1727149645
 MonoBehaviour:
@@ -6053,9 +5948,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 4
     bottom: 4
@@ -6334,9 +6226,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1825502688
 MonoBehaviour:
@@ -6493,9 +6382,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
 --- !u!1 &1842710407
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,9 +6436,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -6691,9 +6574,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1875483526
 MonoBehaviour:
@@ -6926,9 +6806,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 2
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 0
@@ -6992,9 +6869,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1912177726
 MonoBehaviour:
@@ -7150,9 +7024,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_maxFontSize: 0
 --- !u!114 &1955216943
 MonoBehaviour:
@@ -7317,9 +7188,6 @@ MonoBehaviour:
   m_sizing:
     x: 2
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 0
     bottom: 8
@@ -7535,9 +7403,6 @@ MonoBehaviour:
   m_sizing:
     x: 0
     y: 0
-  m_offset: {x: 0, y: 0}
-  m_rotation: 0
-  m_scale: {x: 0, y: 0}
   m_padding:
     top: 8
     bottom: 8
