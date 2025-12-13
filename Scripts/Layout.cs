@@ -421,7 +421,7 @@ namespace Poke.UI
                         case Justification.SpaceBetween:
                             primaryOffset += m_padding.right;
                             
-                            leftover = _rect.sizeDelta.x - (m_padding.left + m_padding.right) - _contentSize.x;
+                            leftover = _rect.rect.size.x - _contentSize.x;
                             
                             if(_children.Count > 1)
                                 spacing = leftover / (_children.Count-1);
@@ -431,14 +431,8 @@ namespace Poke.UI
                                 rt.anchorMax = rt.anchorMax.With(x: 1);
                                 rt.pivot = rt.pivot.With(x: 1);
                                 
-                                if(index != 0) {
-                                    primaryOffset += m_padding.left / lastChildIndex + m_padding.right / lastChildIndex;
-                                }
-                                
                                 rt.anchoredPosition = rt.anchoredPosition.With(x: -primaryOffset);
                                 primaryOffset += rt.sizeDelta.x + spacing;
-
-                                index++;
                             }
                             break;
                     }
@@ -486,7 +480,7 @@ namespace Poke.UI
                             break;
                         case Justification.SpaceBetween:
                             primaryOffset += m_padding.top;
-                            leftover = _rect.sizeDelta.y - _contentSize.y;
+                            leftover = _rect.rect.size.y - _contentSize.y;
                             
                             if(_children.Count > 1)
                                 spacing = leftover / (_children.Count-1);
@@ -551,7 +545,7 @@ namespace Poke.UI
                         case Justification.SpaceBetween:
                             primaryOffset += m_padding.bottom;
                             
-                            leftover = _rect.sizeDelta.y - (m_padding.top + m_padding.bottom) - _contentSize.y;
+                            leftover = _rect.rect.size.y - _contentSize.y;
                             
                             if(_children.Count > 1)
                                 spacing = leftover / (_children.Count-1);
@@ -561,14 +555,8 @@ namespace Poke.UI
                                 rt.anchorMax = rt.anchorMax.With(y: 0);
                                 rt.pivot = rt.pivot.With(y: 0);
                                 
-                                if(index != 0) {
-                                    primaryOffset += m_padding.top / lastChildIndex + m_padding.bottom / lastChildIndex;
-                                }
-                                
                                 rt.anchoredPosition = rt.anchoredPosition.With(y: primaryOffset);
                                 primaryOffset += rt.sizeDelta.y + spacing;
-
-                                index++;
                             }
                             break;
                     }
