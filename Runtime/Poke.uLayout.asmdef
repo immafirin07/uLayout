@@ -1,21 +1,16 @@
 {
-    "name": "Poke.uLayout.Editor",
+    "name": "uLayout",
     "rootNamespace": "Poke.UI",
     "references": [
-        "Unity.TextMeshPro",
-        "uLayout"
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Editor"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_EDITOR"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }
