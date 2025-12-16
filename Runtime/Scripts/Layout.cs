@@ -137,12 +137,10 @@ namespace Poke.UI
             
             // check if the container changed this frame
             if(!Mathf.Approximately(_lastSize.x, _rect.rect.size.x) || !Mathf.Approximately(_lastSize.y, _rect.rect.size.y)) {
-                Debug.Log($"[{name}]: container size changed");
                 layoutChanged = true;
             }
             // check if any children were added/removed this frame
             if(transform.childCount != _children.Count) {
-                Debug.Log($"[{name}]: child count changed");
                 RefreshChildCache();
                 layoutChanged = true;
             }
@@ -152,7 +150,6 @@ namespace Poke.UI
                 
                 // check if item was disabled this frame
                 if(rect.gameObject.activeInHierarchy != c.enabled) {
-                    Debug.Log($"[{name}]: item active toggled");
                     c.enabled = rect.gameObject.activeInHierarchy;
                     layoutChanged = true;
                 }
@@ -161,19 +158,16 @@ namespace Poke.UI
                 
                 // check if ignore layout toggled this frame
                 if(li && li.IgnoreLayout != c.ignoreLayout) {
-                    Debug.Log($"[{name}]: item ignore toggled");
                     c.ignoreLayout = li.IgnoreLayout;
                     layoutChanged = true;
                 }
 
                 // check if item changed size this frame
                 if(!(li && li.SizeMode.x == SizingMode.Grow) && !Mathf.Approximately(rect.rect.size.x, c.size.x)) {
-                    Debug.Log($"[{name}]: item size x changed");
                     c.size = c.size.With(x: rect.rect.size.x); 
                     layoutChanged = true;
                 }
                 if(!(li && li.SizeMode.y == SizingMode.Grow) && !Mathf.Approximately(rect.rect.size.y, c.size.y)) {
-                    Debug.Log($"[{name}]: item size y changed");
                     c.size = c.size.With(y: rect.rect.size.y);
                     layoutChanged = true;
                 }
@@ -373,12 +367,15 @@ namespace Poke.UI
         
         public void ComputeLayout() {
             if(_children.Count < 1) {
-                Debug.LogWarning("Layout has no children - skipping layout computations");
                 return;
             }
             
             // apply RectTransform DrivenTransformProperties
             foreach(RectTransform rt in _children.Keys) {
+                // skip disabled/ignore items
+                if(CheckIngoreElem(_children[rt]))
+                    continue;
+                
                 _rectTracker.Add(
                     this,
                     rt,

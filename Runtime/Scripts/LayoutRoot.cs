@@ -38,16 +38,13 @@ namespace Poke.UI
             if(_dirty) {
                 UpdateLayout();
             }
-            else {
-                Debug.Log("[Root]: No layout changes");
-            }
         }
 
         public void UpdateLayout() {
             _reverse.Clear();
                 
             // fit sizing pass (0)
-            Debug.Log($"[Root]: Fit Size Pass ({Time.unscaledTime:f5})");
+            //Debug.Log($"[Root]: Fit Size Pass ({Time.unscaledTime:f5})");
             foreach(Layout l in _layouts) {
                 if(l.NeedsRefresh) {
                     l.ComputeFitSize();
@@ -56,7 +53,7 @@ namespace Poke.UI
             }
 
             // grow sizing pass (1)
-            Debug.Log($"[Root]: Grow Size Pass ({Time.unscaledTime:f5})");
+            //Debug.Log($"[Root]: Grow Size Pass ({Time.unscaledTime:f5})");
             foreach(Layout l in _layouts) {
                 if(l.NeedsRefresh) {
                     l.GrowChildren();
@@ -64,13 +61,12 @@ namespace Poke.UI
             }
                 
             // layout pass (2)
-            Debug.Log($"[Root]: Layout Pass ({Time.unscaledTime:f5})");
+            //Debug.Log($"[Root]: Layout Pass ({Time.unscaledTime:f5})");
             foreach(Layout l in _reverse) {
                 l.ComputeLayout();
-                Debug.Log(l.name);
             }
             
-            Debug.Log($"[Root]: Refreshed {_reverse.Count} layouts");
+            //Debug.Log($"[Root]: Refreshed {_reverse.Count} layouts");
             
             _dirty = false;
         }
